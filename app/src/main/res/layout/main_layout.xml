@@ -9,11 +9,10 @@
         android:layout_height="?attr/actionBarSize"
         android:background="@color/purple_500"/>
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvList"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="120dp"
-        android:text="Main layout"/>
+        android:layout_height="match_parent"
+        />
 
 </LinearLayout>

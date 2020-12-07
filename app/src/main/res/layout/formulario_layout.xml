@@ -27,6 +27,7 @@
             android:text="@string/form_photo"/>
 
         <ImageView
+            android:id="@+id/ivPhoto"
             android:layout_width="200dp"
             android:layout_height="200dp"
             />
@@ -35,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24dp"
+            android:onClick="Button_Take_Picture"
             android:text="@string/form_butChange"/>
 
     </GridLayout>

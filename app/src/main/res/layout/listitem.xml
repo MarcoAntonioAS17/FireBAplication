@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_perfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <GridLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:columnCount="2">
+
+            <TextView
+                android:id="@+id/item_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/item_LastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:id="@+id/item_Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:textAlignment="textEnd"
+                android:id="@+id/item_Phone"
+                android:layout_width="@android:dimen/thumbnail_width"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                />
+
+
+            <TextView
+                android:id="@+id/item_Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textColor="@color/black"
+                />
+        </GridLayout>
+
+
+
+
+    </GridLayout>
+
+</LinearLayout>
