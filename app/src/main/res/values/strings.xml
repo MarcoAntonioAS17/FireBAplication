@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FireBApplication</string>
+    <string name="join">Ingresar</string>
+    <string name="new_user">Nuevo Usuario</string>
+    <string name="add_user">Registrar Usuario</string>
+    <string name="hint_email">Ingresa el correo</string>
+    <string name="hint_password">Ingresa la contraseña</string>
+    <string name="menu_add">Añadir</string>
+
+    <string name="form_title">Registro de usuario</string>
+    <string name="form_photo">Foto</string>
+    <string name="form_name">Nombre</string>
+    <string name="form_lastName">Apellidos</string>
+    <string name="form_addres">Dirección</string>
+    <string name="form_age">Edad</string>
+    <string name="form_phone">Teléfono</string>
+    <string name="form_submit">Guardar</string>
+    <string name="form_butChange">Cambiar</string>
+
+</resources>
